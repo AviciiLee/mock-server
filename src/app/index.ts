@@ -1,7 +1,7 @@
 import Koa, { Context } from "koa";
 import Router from "koa-router";
 import mockList from "../mock";
-import type { Res } from "../types/request";
+import type { Res } from "../types/response";
 const app = new Koa();
 const router = new Router<string, any>();
 
