@@ -1,7 +1,7 @@
-const Mock = require("mockjs");
+import Mock from "mockjs";
 
 const Random = Mock.Random;
-module.exports = [
+export default [
   {
     path: "/api/demo",
     method: "get",
